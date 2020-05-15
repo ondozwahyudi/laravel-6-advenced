@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('pay', 'PayOrderController@store');
+Route::get('pipelines', 'PostController@index');

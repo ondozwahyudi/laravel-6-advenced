@@ -4,6 +4,7 @@ namespace App\Billing;
 
 use Illuminate\Support\Str;
 
+
 class PaymentGateway implements PaymentGatewayContract
 {
 
